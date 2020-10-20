@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+body{
+    background-color: #329ab9;
+}
+h1{
+    font-size:100px;
+}
+   
+}
+#logo{
+    padding: 30px 30px;
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 175px;
+    margin-top:30px;
+
+}
+#menubar{
+    font-size: 110%;
+    list-style-type: none;
+    
+}
+#menubar li{
+    float:right;
+    letter-spacing: 3px;
+    padding-left: 50px;
+    
+}
+#menubar a{
+    color: black;
+    margin-bottom: 70px;
+}
+#menubar a:hover{
+    border-bottom: 3px;
+    color:#fafafa;
+}
+.concept{
+    font-size: 20px;
+    color:#fafafa;
+    margin-bottom: 100px;
+    text-align: left;
+    margin-right: 100px;
+}
+.concept p{
+    margin-top: 170px;
+    background-color: #121414b9;
+}
+p::first-line{
+    font-size: 32px;
+}
+#hero-img{
+    background-image: url('https://st3.depositphotos.com/3591429/13203/i/1600/depositphotos_132039764-stock-photo-people-drinking-coffee.jpg');
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    margin-bottom: 1700px;
+}
+#cover-text{
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
