@@ -86,3 +86,16 @@ margin-top: 30px;
 #boxes p{
     font-size: 25px;
 }
+footer{
+    height:200px;
+}
+.social-media{
+    text-align: center;
+}
+.social-media li{
+    display: inline;
+}
+.social-media i{
+    font-size: 50px;
+    color: inherit;
+}
