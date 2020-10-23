@@ -141,3 +141,8 @@ footer{
 ::placeholder{
     color: #fafafa;
 }
+.address{
+   padding-bottom:10px;
+   margin-top:10px;
+   margin-left: 40px;
+}
