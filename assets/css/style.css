@@ -122,3 +122,22 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* contact */
+#contact-img{
+    background-image: url('https://us.123rf.com/450wm/bowie15/bowie151508/bowie15150800325/44118396-businessmen-shouting-through-megaphones.jpg?ver=6');
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-form{
+    background: transparent;
+    width: 80%;
+    color: #fafafa;
+    font-size: 20px;
+    height: 100px;
+   
+}
+::placeholder{
+    color: #fafafa;
+}
