@@ -3,6 +3,7 @@
     padding: 0;
     border:0;
 }
+
 /* Home */
 body{
     background-color: #adada6;
@@ -93,6 +94,8 @@ margin-top: 30px;
 }
 footer{
     height:200px;
+    padding-top: 5em;
+    background-color: #312a07b9;
 }
 .social-media{
     text-align: center;
