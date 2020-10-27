@@ -14,45 +14,45 @@ h1{
    
 }
 #logo{
-    padding: 30px 30px;
+    padding: 1.875em 1.875em;
     float: left;
     width: 100%;
     position: absolute;
-    min-height: 175px;
-    margin-top:30px;
+    min-height:11em;
+    margin-top:1.875em;
 
 }
 #menubar{
     font-size: 110%;
     list-style-type: none;
-   padding-bottom: 100px;
+   padding-bottom: 6.25em;
     
 }
 #menubar li{
     float:right;
-    letter-spacing: 3px;
-    padding-left: 50px;
+    letter-spacing: 0.19em;
+    padding-left: 3.125em;
     
 }
 #menubar a{
     color: black;
-    margin-bottom: 70px;
+    margin-bottom: 4.38em;
 }
 #menubar a:hover{
-    border-bottom: 3px;
+    border-bottom: 0.19em;
     color:#fafafa;
 }
 .active{
-    border-bottom: 3px;
+    border-bottom: 0.19em;
     color:#fafafa;
 }
 .concept{
-    font-size: 20px;
+    font-size: 1.25em;
     color:#fafafa;
     background-color: #312a07b9;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3.12em;
+    margin-right: 3.12em;
 }
 
 #hero-img p::first-line{
@@ -61,7 +61,7 @@ h1{
 #hero-img{
     background-image: url('../images/traveler.jpeg');
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 31.25em;
     background-size: cover;
    
 }
@@ -72,35 +72,35 @@ h1{
 }
 
 #boxes{
-margin-top: 30px;
+margin-top: 1.875em;
 
 }
 #boxes h2{
-   padding-left: 300px;
-   padding-top:10px;
+   padding-left:18.75em;
+   padding-top:0.625em;
 }
 #boxes .box{
     width:100%;
     float: left;
-    padding-right: 40px;
-    padding-left:30px;
-    padding-top: 20px;
+    padding-right: 2.5em;
+    padding-left:1.875em;
+    padding-top: 1.25em;
     text-align: left;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625em;
     
 }
 #boxes p{
-    font-size: 1.6px;
+    font-size: 0.1em;
 }
 footer{
-    height:200px;
+    height:12.5em;
     padding-top: 5em;
     background-color: #312a07b9;
 }
 .social-media{
     text-align: center;
-    margin-top: 30px;
-    letter-spacing: 30px;
+    margin-top: 1.875em;
+    letter-spacing: 1.875em;
 }
 .social-media li{
     display: inline;
@@ -115,12 +115,12 @@ footer{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 43.75em;
 }
 /* here weekly events calendar*/
 #events-img{
     background-image: url('../images/events.jpeg');
-    height:500px;
+    height:31.25em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ footer{
 /* contact */
 #contact{
     background-color: #312a07b9;
-    height:600px;
+    height:37.5em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,16 +138,16 @@ footer{
     width: 80%;
     color: #fafafa;
     font-size: 1.25em;
-    height: 100px;
+    height: 6.25em;
    
 }
 ::placeholder{
     color: #fafafa;
 }
 .address{
-   padding-bottom:10px;
-   margin-top:10px;
-   margin-left: 40px;
+   padding-bottom:0.625em;
+   margin-top:0.625em;
+   margin-left: 2.5em;
 }
 .button{
     font-size: 1.6em;
