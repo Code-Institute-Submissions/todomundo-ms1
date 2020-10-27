@@ -51,7 +51,7 @@ h1{
     color:#fafafa;
     background-color: #312a07b9;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -59,7 +59,7 @@ h1{
     font-size: 2em;
 }
 #hero-img{
-    background-image: url('https://st3.depositphotos.com/3591429/13203/i/1600/depositphotos_132039764-stock-photo-people-drinking-coffee.jpg');
+    background-image: url('../images/traveler.jpeg');
     background-repeat: no-repeat;
     min-height: 500px;
     background-size: cover;
@@ -111,7 +111,7 @@ footer{
 }
 /* aboout menu */
 #menu-img{
-    background-image: url('https://pixelz.cc/wp-content/uploads/2018/08/croissant-and-coffee-uhd-4k-wallpaper.jpg');
+    background-image: url('../images/aboutmenu.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,16 +119,16 @@ footer{
 }
 /* here weekly events calendar*/
 #events-img{
-    background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-image: url('../images/events.jpeg');
     height:500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 /* contact */
-#contact-img{
-    background-image: url('https://us.123rf.com/450wm/bowie15/bowie151508/bowie15150800325/44118396-businessmen-shouting-through-megaphones.jpg?ver=6');
-    height:500px;
+#contact{
+    background-color: #312a07b9;
+    height:600px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -148,4 +148,9 @@ footer{
    padding-bottom:10px;
    margin-top:10px;
    margin-left: 40px;
+}
+.button{
+    font-size: 1.6em;
+    background-color: #0e0c06b9;
+    color: #fafafa;
 }
