@@ -1,8 +1,27 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Commissioner&family=Permanent+Marker&display=swap");
+
 *{
     margin: 0;
     padding: 0;
     border:0;
-}
+}   
+body {
+        font-family: "Commissioner", sans-serif;
+      }
+header {
+        font-family: "Permanent Marker", cursive;
+      }
+
+#menubar {
+        font-family: "Commissioner", sans-serif;
+      }
+h2 {
+        font-family: "Permanent Marker", cursive;
+      }
+h3 {
+        font-family: "Permanent Marker", cursive;
+      }
 
 /* Home */
 body{
@@ -20,7 +39,7 @@ h1{
     position: absolute;
     min-height:11em;
     margin-top:1.875em;
-
+    
 }
 #menubar{
     font-size: 110%;
@@ -59,14 +78,15 @@ h1{
     font-size: 2em;
 }
 #hero-img{
-    background-image: url('../images/traveler.jpeg');
+    background-image: url('../images/kafe.jpeg');
     background-repeat: no-repeat;
-    min-height: 31.25em;
+    height:31.25em;
     background-size: cover;
+    width: 100%;
    
 }
 .container{
-    width: 70%;
+    width: 100%;
     overflow: hidden;
     margin: auto;
 }
@@ -76,8 +96,7 @@ margin-top: 1.875em;
 
 }
 #boxes h2{
-   padding-left:18.75em;
-   padding-top:0.625em;
+   text-align: center;
 }
 #boxes .box{
     width:100%;
@@ -96,6 +115,7 @@ footer{
     height:12.5em;
     padding-top: 5em;
     background-color: #312a07b9;
+    width: 100%;
 }
 .social-media{
     text-align: center;
@@ -153,4 +173,31 @@ footer{
     font-size: 1.6em;
     background-color: #0e0c06b9;
     color: #fafafa;
+}
+@media(max-width:767px){
+    h1{
+    font-size:4em;
+}
+    p{
+        font-size: 0.84em;
+        padding:3px;
+        
+    }
+    .concept{
+        text-align: left;
+        margin-left: 0.12em;
+        margin-right: 0.12em;
+    }
+    #menu-img{
+    
+    height: 48em;
+    }
+    .disable{
+        display: none;
+    }
+    #hero-img{
+        background-position: center;
+        background-size: cover;
+
+    }
 }
