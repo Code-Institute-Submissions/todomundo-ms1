@@ -28,7 +28,7 @@ body{
     background-color: #adada6;
 }
 h1{
-    font-size:8em;
+    font-size:5em;
 }
    
 }
@@ -52,14 +52,19 @@ h1{
     letter-spacing: 0.19em;
     padding-left: 3.125em;
     
+    
 }
 #menubar a{
     color: black;
     margin-bottom: 4.38em;
+    
+    
 }
 #menubar a:hover{
     border-bottom: 0.19em;
     color:#fafafa;
+    text-decoration: none;
+    
 }
 .active{
     border-bottom: 0.19em;
@@ -70,12 +75,12 @@ h1{
     color:#fafafa;
     background-color: #312a07b9;
     text-align: center;
-    margin-left: 3.12em;
-    margin-right: 3.12em;
+    width: 100%;
 }
-
-#hero-img p::first-line{
-    font-size: 2em;
+.concept h3{
+    font-family: "Commissioner", sans-serif;
+    padding-top: 30px;
+    
 }
 #hero-img{
     background-image: url('../images/kafe.jpeg');
@@ -112,22 +117,28 @@ margin-top: 1.875em;
     font-size: 0.1em;
 }
 footer{
-    height:12.5em;
+    height:30%;
     padding-top: 5em;
     background-color: #312a07b9;
+    background-position:center;
     width: 100%;
 }
+
 .social-media{
     text-align: center;
-    margin-top: 1.875em;
-    letter-spacing: 1.875em;
+    letter-spacing: 2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
 }
 .social-media li{
     display: inline;
+    padding-bottom: 30px;
+    
 }
 .social-media i{
-    font-size: 3.1em;
-    color: black;
+    font-size: 4.1em;
+    color:#fafafa;
 }
 /* aboout menu */
 #menu-img{
@@ -165,9 +176,8 @@ footer{
     color: #fafafa;
 }
 .address{
-   padding-bottom:0.625em;
-   margin-top:0.625em;
-   margin-left: 2.5em;
+   letter-spacing: 1px;
+   color: #fafafa;
 }
 .button{
     font-size: 1.6em;
@@ -176,8 +186,9 @@ footer{
 }
 @media(max-width:767px){
     h1{
-    font-size:4em;
+    font-size:2em;
 }
+
     p{
         font-size: 0.84em;
         padding:3px;
@@ -187,10 +198,11 @@ footer{
         text-align: left;
         margin-left: 0.12em;
         margin-right: 0.12em;
+        
     }
     #menu-img{
     
-    height: 48em;
+    max-height: 48em;
     }
     .disable{
         display: none;
