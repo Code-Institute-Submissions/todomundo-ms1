@@ -183,14 +183,18 @@ footer{
     font-size: 1.6em;
     background-color: #0e0c06b9;
     color: #fafafa;
+    
 }
-@media(max-width:767px){
+@media only screen and (max-width:768px){
     h1{
     font-size:2em;
 }
+    h2{
+    font-size: 1.2em;
+    }
 
     p{
-        font-size: 0.84em;
+        font-size: 0.9em;
         padding:3px;
         
     }
@@ -200,9 +204,12 @@ footer{
         margin-right: 0.12em;
         
     }
+    #menubar{
+        font-size: 80%;
+    }
     #menu-img{
     
-    max-height: 48em;
+    max-height: 40em;
     }
     .disable{
         display: none;
@@ -212,4 +219,24 @@ footer{
         background-size: cover;
 
     }
+    form{
+        text-align: center;
+    }
+
+}
+@media(max-width:480px){
+    h3{
+        font-size: 1.2em;
+    }
+    h2{
+        font-size: 0.9em
+    }
+    p{
+        font-size: 0.9em;
+    }
+    .device{
+        display:none;
+    }
+    
+
 }
