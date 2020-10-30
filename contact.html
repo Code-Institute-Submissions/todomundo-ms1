@@ -17,7 +17,6 @@
       crossorigin="anonymous"
     />
     <title>Weekly events</title>
-    
   </head>
 
   <body>
@@ -26,7 +25,7 @@
         <h1>Todo Mundo kafé</h1>
         <h2>Your Opinion Matters!</h2>
         <p>
-          If you have a question, suggestion, or even a complain, please let us
+          If you have a question, suggestion, or even a complaint, please let us
           know!
         </p>
       </div>
@@ -43,16 +42,29 @@
     <div id="contact">
       <div class="concept">
         <form>
-              <label for="fname">Your Name</label>
-              <input name="name" type="text" class="form-control"  required><br>
-              <label for="email">Your Email</label>
-              <input name="email" type="email" class="form-control"  required><br>
-              <label for="message">Your Message</label>
-              <textarea name="message" class="form-control" cols="30" rows="10" required></textarea>
-              <input type="submit" class="button" value="Submit!">
-        </form>      
+          <label for="fname">Your Name</label>
+          <input name="name" type="text" id="fname" class="form-control" required /><br />
+          <label for="email">Your Email</label>
+          <input
+            name="email"
+            type="email"
+            class="form-control"
+            id="email"
+            required
+          /><br />
+          <label for="message">Your Message</label>
+          <textarea
+            name="message"
+            id="message"
+            class="form-control"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <input type="submit" class="button" value="Submit!" />
+        </form>
       </div>
-    </div>          
+    </div>
 
     <!--footer with social network medias-->
     <footer class="social-media">
@@ -69,15 +81,14 @@
         </li>
       </ul>
       <div class="address">
-      <p>
-        TodoMundo Kafé: Strandvägen 51/ Stockholm<br />
-        Tel:081425151
-      </p>
-    </div>
+        <p>
+          TodoMundo Kafé: Strandvägen 51/ Stockholm<br />
+          Tel:081425151
+        </p>
+      </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    
   </body>
 </html>
