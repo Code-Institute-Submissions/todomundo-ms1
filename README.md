@@ -10,6 +10,8 @@ As an user of this website I would like to find a coffee shop that offers others
 As an user of this website I would like to be able to navigate thru the site in a very easy way.
 As an user of this website I would like to capable to submit suggestions, ask questions or complain with a contact form. 
 
+PS: Wireframes can be visualized on the "Wireframes" folder.
+
 ## Features
 * The Home Section explains the concept and what makes Todo Mundo Kafé different from other coffee shops in Stockholm.
 * The Our Menu section gives an explanation of the products served at the caffé.
