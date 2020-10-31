@@ -18,7 +18,7 @@ As an user of this website I would like to capable to submit suggestions, ask qu
 * The footer shows the users our physical address and phone number, as well as the social media links(facebook and instagram). 
 
 ### Features to be implement
-* Create a navbar in "hamburguer" form for mobiles.
+* Create a collapse navbar for mobiles.
 * A logo styled with image or art design.
 * The "Our Menu" section could be updated with products and prices.
 * As it is a place for tourists, having an option to change language could be interesting.
@@ -42,6 +42,19 @@ For validation of the HTML and CSS were used W3c markup validation servive and j
 
 ## Deployment
 The site is deployed on GitHub pages from the master branch and will update automatically upon new commits. It can be accessed via https://kikobertacco.github.io/todomundo-ms1/.
+
+# Credits
+## Content
+The written content was created by me.
+
+## media
+All the images were taken from https://www.unsplash.com
+
+## Acknowledgements
+This is my first website for a fictional Coffee shop. I tried to keep as simple as possible but always concern about its functionality.
+My inspiration for this website came from "Love Runnings" in the Code Institute Course, and from the https://www.espressohouse.com website.
+The content of this website is for educational purposes only. 
+
 
  
 
